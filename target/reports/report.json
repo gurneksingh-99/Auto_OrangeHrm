@@ -1,0 +1,551 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T11:00:39.979Z",
+        "line": 2,
+        "name": "I want to add a new report of an employee",
+        "description": "",
+        "id": "add-new-employee-report;i-want-to-add-a-new-report-of-an-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16842000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am already logged into OrangeHrm and in Reports tab",
+            "match": {
+              "location": "StepDefinition.AddDef.i_am_already_logged_into_orange_hrm_and_in_reports_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1337000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on Add Button",
+            "match": {
+              "location": "StepDefinition.AddDef.i_click_on_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should be redirected to Add report page",
+            "match": {
+              "location": "StepDefinition.AddDef.i_should_be_redirected_to_add_report_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1239000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter Report Name and Display Field",
+            "match": {
+              "location": "StepDefinition.AddDef.i_enter_report_name_and_display_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "New Employee report should be created",
+            "match": {
+              "location": "StepDefinition.AddDef.new_employee_report_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add new Employee Report",
+    "description": "",
+    "id": "add-new-employee-report",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureofReports/Add.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T11:00:59.602Z",
+        "line": 2,
+        "name": "I want to Delete employee reports",
+        "description": "",
+        "id": "delete-employee-report;i-want-to-delete-employee-reports",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14353000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have Already Logged in OrangeHrm and opened Report pannel",
+            "match": {
+              "location": "StepDefinition.DeleteDef.i_have_already_logged_in_orange_hrm_and_opened_report_pannel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have selected reports to delete",
+            "match": {
+              "location": "StepDefinition.DeleteDef.i_have_selected_reports_to_delete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Delete button and Click on Ok button",
+            "match": {
+              "location": "StepDefinition.DeleteDef.i_click_on_delete_button_and_click_on_ok_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The selected report should be deleted succesfully",
+            "match": {
+              "location": "StepDefinition.DeleteDef.the_selected_report_should_be_deleted_succesfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete Employee report",
+    "description": "",
+    "id": "delete-employee-report",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureofReports/Delete.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T11:01:15.173Z",
+        "line": 2,
+        "name": "I want to edit Employee report",
+        "description": "",
+        "id": "edit-employee-report;i-want-to-edit-employee-report",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17092000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I Have Already Logged in OrangeHrm And opened Report pannel",
+            "match": {
+              "location": "StepDefinition.EditReportDef.i_have_already_logged_in_orange_hrm_and_opened_report_pannel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1102000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I clickon Edit Button",
+            "match": {
+              "location": "StepDefinition.EditReportDef.i_clickon_edit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Edit Report page must open",
+            "match": {
+              "location": "StepDefinition.EditReportDef.edit_report_page_must_open()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Edit Employee report",
+    "description": "",
+    "id": "edit-employee-report",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureofReports/EditReport.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T11:01:33.452Z",
+        "line": 2,
+        "name": "I want to add a new invalid report of an employee",
+        "description": "",
+        "id": "add-new-invalid-employee-report;i-want-to-add-a-new-invalid-report-of-an-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13837000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am already logged in OrangeHrm and in Reports tab",
+            "match": {
+              "location": "StepDefinition.InvalidAdd.i_am_already_logged_in_orange_hrm_and_in_reports_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1955000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I clicked on Add Button",
+            "match": {
+              "location": "StepDefinition.InvalidAdd.i_clicked_on_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have been redirected to Add report page",
+            "match": {
+              "location": "StepDefinition.InvalidAdd.i_have_been_redirected_to_add_report_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1313000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter invalid Report Name and Display Field",
+            "match": {
+              "location": "StepDefinition.InvalidAdd.i_enter_invalid_report_name_and_display_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Invalid report shopuld not be saved \u003d\u003d\u003e expected: not equal but was: \u003c@@\u003e\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)\r\n\tat org.junit.jupiter.api.AssertNotEquals.failEqual(AssertNotEquals.java:276)\r\n\tat org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:265)\r\n\tat org.junit.jupiter.api.Assertions.assertNotEquals(Assertions.java:2811)\r\n\tat StepDefinition.InvalidAdd.new_employee_report_should_not_be_created(InvalidAdd.java:46)\r\n\tat ✽.New Employee report should not be created(file:///C:/Users/lenovo/Desktop/capgi/TRAINING/JAVA/Auto_OrangeHrm/src/main/resources/FeatureofReports/InvalidAdd.feature:9)\r\n",
+              "duration": 51000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "New Employee report should not be created",
+            "match": {
+              "location": "StepDefinition.InvalidAdd.new_employee_report_should_not_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add new invalid Employee Report",
+    "description": "",
+    "id": "add-new-invalid-employee-report",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureofReports/InvalidAdd.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T11:01:50.630Z",
+        "line": 2,
+        "name": "I want to open Reports Tab in OrangeHrm website",
+        "description": "",
+        "id": "open-reports-pannel;i-want-to-open-reports-tab-in-orangehrm-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11196000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I logged in OrangeHrm",
+            "match": {
+              "location": "StepDefinition.OpenReportDef.i_logged_in_orange_hrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2131000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on PIM tab",
+            "match": {
+              "location": "StepDefinition.OpenReportDef.i_click_on_pim_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 637000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Reports",
+            "match": {
+              "location": "StepDefinition.OpenReportDef.i_click_on_reports()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to see Reports pannel",
+            "match": {
+              "location": "StepDefinition.OpenReportDef.i_should_be_able_to_see_reports_pannel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open Reports Pannel",
+    "description": "",
+    "id": "open-reports-pannel",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureofReports/Openreport.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T11:02:04.685Z",
+        "line": 2,
+        "name": "I want to read The Employee report",
+        "description": "",
+        "id": "read-employee-reports;i-want-to-read-the-employee-report",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17209000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have Already Logged in OrangeHrm And opened Report pannel",
+            "match": {
+              "location": "StepDefinition.ReadReportDef.i_have_already_logged_in_orange_hrm_and_opened_report_pannel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1025000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on Run button",
+            "match": {
+              "location": "StepDefinition.ReadReportDef.i_click_on_run_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Then The respective Report should open",
+            "match": {
+              "location": "StepDefinition.ReadReportDef.then_the_respective_report_should_open()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Read Employee reports",
+    "description": "",
+    "id": "read-employee-reports",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureofReports/ReadReport.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T11:02:22.991Z",
+        "line": 2,
+        "name": "I want to Reset the searched results",
+        "description": "",
+        "id": "reset-searched-pannel;i-want-to-reset-the-searched-results",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14087000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I Logged into OrangeHrm and have opened Reports Pannel",
+            "match": {
+              "location": "StepDefinition.ResetDef.i_logged_into_orange_hrm_and_have_opened_reports_pannel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 662000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Have searched a report",
+            "match": {
+              "location": "StepDefinition.ResetDef.i_have_searched_a_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 588000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Reset Button",
+            "match": {
+              "location": "StepDefinition.ResetDef.i_click_on_reset_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The searched result should be reset to default view",
+            "match": {
+              "location": "StepDefinition.ResetDef.the_searched_result_should_be_reset_to_default_view()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Reset Searched Pannel",
+    "description": "",
+    "id": "reset-searched-pannel",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureofReports/ResetSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T11:02:38.393Z",
+        "line": 2,
+        "name": "I want to Search Employee report with the help of report name",
+        "description": "",
+        "id": "search-employee-reports;i-want-to-search-employee-report-with-the-help-of-report-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12994000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am already Logged into OrangeHrm and have opened Reports Pannel",
+            "match": {
+              "location": "StepDefinition.SearchDef.i_am_already_logged_into_orange_hrm_and_have_opened_reports_pannel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1333000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter Valid report name and Click on Search Button",
+            "match": {
+              "location": "StepDefinition.SearchDef.i_enter_valid_report_name_and_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should be able to see searched report with same name",
+            "match": {
+              "location": "StepDefinition.SearchDef.i_should_be_able_to_see_searched_report_with_same_name()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Employee Reports",
+    "description": "",
+    "id": "search-employee-reports",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureofReports/Search.feature",
+    "tags": []
+  }
+]

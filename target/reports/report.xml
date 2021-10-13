@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="133.076">
+<testcase classname="Add new Employee Report" name="I want to add a new report of an employee" time="19.59">
+<system-out><![CDATA[Given I am already logged into OrangeHrm and in Reports tab.................passed
+When I click on Add Button..................................................passed
+Then I should be redirected to Add report page..............................passed
+When I enter Report Name and Display Field..................................passed
+Then New Employee report should be created..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Delete Employee report" name="I want to Delete employee reports" time="15.548">
+<system-out><![CDATA[Given I have Already Logged in OrangeHrm and opened Report pannel...........passed
+And I have selected reports to delete.......................................passed
+When I click on Delete button and Click on Ok button........................passed
+Then The selected report should be deleted succesfully......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Edit Employee report" name="I want to edit Employee report" time="18.263">
+<system-out><![CDATA[Given I Have Already Logged in OrangeHrm And opened Report pannel...........passed
+When I clickon Edit Button..................................................passed
+Then Edit Report page must open.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add new invalid Employee Report" name="I want to add a new invalid report of an employee" time="17.169">
+<failure message="Invalid report shopuld not be saved ==&gt; expected: not equal but was: &lt;@@&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[Given I am already logged in OrangeHrm and in Reports tab...................passed
+When I clicked on Add Button................................................passed
+Then I have been redirected to Add report page..............................passed
+When I enter invalid Report Name and Display Field..........................passed
+Then New Employee report should not be created..............................failed
+
+StackTrace:
+org.opentest4j.AssertionFailedError: Invalid report shopuld not be saved ==> expected: not equal but was: <@@>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.AssertNotEquals.failEqual(AssertNotEquals.java:276)
+	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:265)
+	at org.junit.jupiter.api.Assertions.assertNotEquals(Assertions.java:2811)
+	at StepDefinition.InvalidAdd.new_employee_report_should_not_be_created(InvalidAdd.java:46)
+	at ✽.New Employee report should not be created(file:///C:/Users/lenovo/Desktop/capgi/TRAINING/JAVA/Auto_OrangeHrm/src/main/resources/FeatureofReports/InvalidAdd.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Open Reports Pannel" name="I want to open Reports Tab in OrangeHrm website" time="14.043">
+<system-out><![CDATA[Given I logged in OrangeHrm.................................................passed
+And I click on PIM tab......................................................passed
+When I click on Reports.....................................................passed
+Then I should be able to see Reports pannel.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Read Employee reports" name="I want to read The Employee report" time="18.296">
+<system-out><![CDATA[Given I have Already Logged in OrangeHrm And opened Report pannel...........passed
+When I click on Run button..................................................passed
+Then Then The respective Report should open.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Reset Searched Pannel" name="I want to Reset the searched results" time="15.384">
+<system-out><![CDATA[Given I Logged into OrangeHrm and have opened Reports Pannel................passed
+And I Have searched a report................................................passed
+When I click on Reset Button................................................passed
+Then The searched result should be reset to default view....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Employee Reports" name="I want to Search Employee report with the help of report name" time="14.379">
+<system-out><![CDATA[Given I am already Logged into OrangeHrm and have opened Reports Pannel.....passed
+When I enter Valid report name and Click on Search Button...................passed
+Then I should be able to see searched report with same name.................passed
+]]></system-out>
+</testcase>
+</testsuite>
